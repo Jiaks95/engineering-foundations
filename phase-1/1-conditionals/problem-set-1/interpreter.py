@@ -14,7 +14,6 @@ def main():
     # Note: The problem spec guarantees exactly one space delimiter
     # In production, I would use .split() to handle multiple spaces between x, y and z
     x, y, z = arithmetic_expression.split(" ")
-    x, y, z = arithmetic_expression.split(" ")
 
     x, z = float(x), float(z)
 
